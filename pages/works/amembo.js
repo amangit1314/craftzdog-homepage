@@ -28,7 +28,7 @@ const Work = () => (
         P2P private file sharing tool with MSN Messenger integration for Windows
       </P>
       <P>
-        「MSN Messenger」と連係して特定ユーザーとP2Pフォルダ共有できる「Amembo」
+        「MSN Messenger」Amazingly looking beautiful application「Amembo」
       </P>
       <UnorderedList ml={4} my={4}>
         <ListItem>ファイル転送がサイズ制限無く高速に出来ます。</ListItem>

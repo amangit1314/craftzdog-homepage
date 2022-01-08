@@ -32,15 +32,15 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a full-stack developer based in Japan!
+        Hello, I&apos;m a full-stack developer based in India!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Aman Soni
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Software Developer ( Developer / Designer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -55,7 +55,7 @@ const Home = () => (
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/takuya.jpg"
+            src="/images/aman.png"
             alt="Profile image"
           />
         </Box>
@@ -66,14 +66,14 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
+          Aman is a freelance and a full-stack developer based in India with a
+          passion for building Applications,NFT/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
+          to play nitendo and listen music. Currently, he is living off of his
+          own product called{' '}
           <NextLink href="/works/inkdrop">
-            <Link>Inkdrop</Link>
+            <Link>Convo Chat</Link>
           </NextLink>
           .
         </Paragraph>
@@ -91,22 +91,18 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2002</BioYear>
+          Born in Churu (Rajathan), India.
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2022</BioYear>
+          Started freelancing as a Flutter Developer @Fieverr!
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
-        </BioSection>
-        <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
-        </BioSection>
-        <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Works as a freelance
+          <BioYear>2023</BioYear>
+          Completed the B.Tech&apos;s Program in the B K Birla Institute of
+          Engineering and Technology (Pilani, Rajasthan), India.
         </BioSection>
       </Section>
 
@@ -115,15 +111,15 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
+          Games, Music,{' '}
           <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
+            Cricket
           </Link>
-          , Playing Drums,{' '}
+          , Blockchain,{' '}
           <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
+            Pokemon
           </Link>
-          , Leica, Machine Learning
+          , Designing , DevOPS
         </Paragraph>
       </Section>
 
@@ -133,13 +129,13 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/amangit1314" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoGithub} />}
               >
-                @craftzdog
+                @amangit1314
               </Button>
             </Link>
           </ListItem>
@@ -155,24 +151,24 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="https://twitter.com/soni07_aman" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoTwitter} />}
               >
-                @craftzdog (日本語)
+                @soni07_aman
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://instagram.com/mysteri0us_hulk" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoInstagram} />}
               >
-                @craftzdog
+                @mysteri0us_hulk
               </Button>
             </Link>
           </ListItem>

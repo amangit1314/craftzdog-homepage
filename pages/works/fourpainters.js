@@ -46,7 +46,7 @@ const Work = () => (
         <ListItem>
           <Meta>Blogpost</Meta>
           <Link href="https://archive.craftz.dog/blog.odoruinu.net/2015/12/19/created-movie-with-deep-learning/">
-            Deep Learningを使って映像作品を作った
+            Blockchain NFT`S
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
